@@ -559,7 +559,7 @@ function waorder_wa_form_sub_district_field(){
                     <input type="hidden" name="subdistrict" value="">
                     <input type="hidden" name="subdistrict_id" value="">
                     <select id="getSubDistrict" required oninvalid="this.setCustomValidity('Tentukan kecamatan alamat Anda untuk penghitungan Ongkir')" oninput="this.setCustomValidity('')">
-                        <option hidden="hidden" selected="selected" value="">Kecamatan</option>
+                        <option hidden="hidden" selected="selected" value=""><i class="icon ion-md-locate"></i> Pilih Kecamatan</option>
                     </select>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.23.0/slimselect.min.js"></script>
                     <script>

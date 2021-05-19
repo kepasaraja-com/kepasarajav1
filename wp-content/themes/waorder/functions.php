@@ -243,7 +243,27 @@ function waorder_footer(){
                             </td>
                         </tr>
                     </table>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="input">
+                                    <i class="icon ion-md-locate"></i>
+                                    <input type="text" name="kota" placeholder="Kota" required oninvalid="this.setCustomValidity('Input Kota Anda')" oninput="this.setCustomValidity('')">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                     <?php do_action('waorder_wa_form_after_address'); ?>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="input">
+                                    <i class="icon ion-md-locate"></i>
+                                    <input type="text" name="kelurahan" placeholder="Kelurahan" required oninvalid="this.setCustomValidity('Input Kelurahan Anda')" oninput="this.setCustomValidity('')">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                     <?php if (get_option('waorder_feature_payment_enable') == 'yes' ) : ?>
                         <table>
                             <tr>
